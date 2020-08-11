@@ -1,0 +1,12 @@
+{
+  "name": "Flutter Docker",
+  "settings": {
+    "terminal.integrated.shell.linux": "null"
+  },
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "extensions": ["dart-code.flutter"],
+  "mounts": ["source=/dev/bus/usb,target=/dev/bus/usb,type=bind"],
+  "workspaceFolder": "/home/codespace/workspace"
+}
